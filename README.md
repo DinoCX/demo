@@ -1,1 +1,1 @@
-Popup mssv thông qua chèn assemby vào section của putty.
+Popup mssv thông qua chèn assembly vào section của putty.
